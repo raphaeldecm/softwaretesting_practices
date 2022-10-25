@@ -1,5 +1,5 @@
 import pytest
-from src.identifier.identifier_2 import Identifier
+from src.identifier.identifier import Identifier
 
 
 class Test_Identifier():

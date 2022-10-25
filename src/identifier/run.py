@@ -1,6 +1,6 @@
 import re
 
-from identifier_2 import Identifier
+from identifier.identifier import Identifier
 
 # import identifier
 
