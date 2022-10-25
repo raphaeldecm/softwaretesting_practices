@@ -1,7 +1,4 @@
-import re
-
-
-class TestIdentifier():
+class Identifier():
     def CaseTestLen(self, value):
         if len(value) >= 1 and len(value) <= 6:
             return True
@@ -17,3 +14,12 @@ class TestIdentifier():
         if len(result) < len(value):
             return False
         return True
+
+    def Identificador(self, value):
+        if self.CaseTestLen(value) and self.CaseTestInitLetter(value) and self.CaseTestContentLetterAndNumber(value):
+            return True
+        else:
+            return False
+
+# if __name__ == "__main__":
+#     main(sys.argv[1:])
