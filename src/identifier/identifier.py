@@ -20,6 +20,3 @@ class Identifier():
             return True
         else:
             return False
-
-# if __name__ == "__main__":
-#     main(sys.argv[1:])

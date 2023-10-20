@@ -1,8 +1,7 @@
-import pytest
-from src.identifier.identifier import Identifier
+# from src.identifier.identifier import Identifier
+from src.identifier.fake import Identifier
 
-
-class Test_Identifier():
+class Test_Identifier_V2():
 
     def setUp(self):
         print("Inside of setUp")

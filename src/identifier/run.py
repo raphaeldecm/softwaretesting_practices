@@ -1,19 +1,13 @@
-import re
+from identifier import Identifier
+from fake import TestIdentifier
 
-from identifier.identifier import Identifier
+if __name__ == "__main__":
+    # id = Identifier()
+    id = TestIdentifier()
 
-# import identifier
-
-
-def main():
-    # id = identifier.TestIdentifier()
-    id = Identifier()
-
-    dado = "a5"
+    dado = "a12345"
 
     if id.Identificador(dado):
         print("A string " + dado + " é um identificador válido.")
     else:
         print("A string " + dado + " não é um identificador válido.")
-
-main()
