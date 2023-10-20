@@ -1,9 +1,8 @@
-from identifier import Identifier
-from fake import TestIdentifier
+# from identifier import Identifier
+from fake import Identifier
 
 if __name__ == "__main__":
-    # id = Identifier()
-    id = TestIdentifier()
+    id = Identifier()
 
     dado = "a12345"
 
