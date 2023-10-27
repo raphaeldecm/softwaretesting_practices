@@ -1,24 +1,11 @@
-# from src.identifier.identifier import Identifier
-from src.identifier.fake import Identifier
+from src.identifier.identifier import Identifier
+
+# from src.identifier.fake import Identifier
 
 class Test_Identifier_V2():
 
-    def setUp(self):
-        print("Inside of setUp")
-        pass
-
-    def tearDown(self):
-        print("Inside of tearDown")
-        pass
-
     def test_D1_class_2_5_invalid(self):
-        print("Inside of test_D1_class_2_5_invalid")
-        id_obj = Identifier()
-        dadoDeTeste = " "
-        resultado_esperado = False
-        resultado_obtido = id_obj.Identificador(dadoDeTeste)
-
-        assert resultado_obtido == resultado_esperado
+        assert not Identifier().Identificador("")
 
     def test_D2_class_1_4_6_valid(self):
         print("Inside of test_D2_class_1_4_6_valid")
